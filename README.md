@@ -20,54 +20,93 @@ app apart to see what's inside.
 
 ---
 
-## Relay — an AI assistant for business operations
+## Selected work
+
+<table>
+<tr><td width="46%" valign="top">
+
+<a href="https://sayamdev.github.io/relay/"><img alt="Relay: an enquiry classified as a high-priority sales enquiry, with extracted fields and a drafted reply awaiting approval" src="assets/projects/relay.png"></a>
+
+</td><td valign="top">
+
+### Relay — AI for business operations
 
 Enquiries and complaints arrive; Relay reads them, decides what they are and how
 urgent, extracts the commercial detail, opens the follow-up task and drafts the
-reply — then stops and waits for a person. Every decision is written to an audit
-trail.
+reply — then stops and waits for a person. Every decision lands in an audit trail.
+
+Runs on a deterministic rules engine, so the public demo costs nothing to host.
+The same interface drives a local model through Ollama, and the same workflows
+execute in n8n.
 
 **[▶ Try the demo](https://sayamdev.github.io/relay/)** · **[Source](https://github.com/SayamDev/relay)**
 
-Runs on a deterministic rules engine so the public demo costs nothing to host,
-with the same interface driving a local model through Ollama and the same
-workflows executing in n8n.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-relay-dark.svg"><img alt="Built with React, TypeScript, an AI provider abstraction, n8n and Ollama" src="assets/tags-relay-light.svg"></picture>
 
-The part I'd point at in an interview: I ran a real model against it and caught
-it rewriting *"revenue fell, driven by lead volume"* into *"driven by a decrease
-in conversion rate, as the conversion rate increased"* — a claim that
-contradicted the evidence table rendered directly beneath it. So I took the
-model out of that path entirely and put guards on the rest, and the reasons are
-written down in the repo. Knowing when **not** to use the model is most of the
-work.
+</td></tr>
+</table>
 
----
+> **The bit I'd point at in an interview.** I ran a real model against it and
+> caught it rewriting *"revenue fell, driven by lead volume"* into *"driven by a
+> decrease in conversion rate, as the conversion rate increased"* — a claim that
+> contradicted the evidence table rendered directly beneath it. So I took the
+> model out of that path entirely, put validation on the rest, and wrote down
+> why. Knowing when **not** to use the model is most of the work.
 
-## TurfXI — an app for running a Sunday-league football team
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
+<a href="https://sayamdev.github.io/turfxi-demo/"><img alt="TurfXI: the next match screen for Sunday Legends FC, with availability, countdown and squad" src="assets/projects/turfxi.png"></a>
+
+</td><td valign="top">
+
+### TurfXI — running a Sunday-league team
 
 Fixtures, live match events, player ratings, subs collection. Offline-first, so
-it works on a pitch with no signal. React Native on iOS and Android, Postgres
-on Supabase.
+it works on a pitch with no signal. React Native on iOS and Android, Postgres on
+Supabase.
+
+No sign-up — the demo loads a club with a full season already played.
 
 **[▶ Try the demo](https://sayamdev.github.io/turfxi-demo/)** · **[Case study](https://github.com/SayamDev/turfxi-demo)**
 
-No sign-up — it loads a club with a full season already played.
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-turfxi-dark.svg"><img alt="Built with React Native, Expo, Supabase, PostgreSQL and row-level security" src="assets/tags-turfxi-light.svg"></picture>
 
-While building it I found a hole that let any club member make themselves an
-admin of their club. Fixed it in the database policy where a modified app can't
-reach it, then wrote a test that signs in as two real users and proves it's
-closed. That test found a second bug: it had been reading its config from the
-wrong directory since the day it was written, so it had never actually run.
+</td></tr>
+</table>
 
----
+> **What I found while building it.** A hole that let any club member make
+> themselves an admin of their club. I fixed it in the database policy, where a
+> modified app can't reach it, then wrote a test that signs in as two real users
+> and proves it's closed. That test found a second bug: it had been reading its
+> config from the wrong directory since the day it was written, so it had never
+> actually run.
 
-## ATC Aptitude Drills
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
+<a href="https://sayamdev.github.io/atc-aptitude-drills/"><img alt="ATC Aptitude Drills: the SCALES module list, each drill showing its code, duration and what it tests" src="assets/projects/atc.png"></a>
+
+</td><td valign="top">
+
+### ATC Aptitude Drills
 
 Free, open practice for the aptitude tests used to select trainee air traffic
-controllers. Explains the format, teaches a method, and shows where you're
-losing marks. Runs entirely in the browser.
+controllers. Every drill explains the format before you start, teaches a method,
+and reports where you're losing marks.
 
-**[Source](https://github.com/SayamDev/atc-aptitude-drills)**
+Nothing is uploaded — it all runs in the browser.
+
+**[▶ Try it](https://sayamdev.github.io/atc-aptitude-drills/)** · **[Source](https://github.com/SayamDev/atc-aptitude-drills)**
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-atc-dark.svg"><img alt="Built with TypeScript and React, open source" src="assets/tags-atc-light.svg"></picture>
+
+</td></tr>
+</table>
 
 ---
 

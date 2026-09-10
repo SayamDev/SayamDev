@@ -122,6 +122,44 @@ for (const mode of ['light', 'dark']) {
   }
 }
 
+/* ---------------------------------------------------------------------------
+ * Project tag strips
+ *
+ * Same chips as the skills panel, one strip per project, drawn from the same
+ * CV data. Filenames are stable, so the README references them directly and
+ * they redraw themselves whenever the CV's project tags change.
+ * ------------------------------------------------------------------------ */
+
+const PROJECT_SLUGS = {
+  Relay: 'relay',
+  TurfXI: 'turfxi',
+  'ATC Aptitude Drills': 'atc',
+}
+
+function renderTagStrip(tags, mode) {
+  const t = THEMES[mode]
+  const height = CHIP_H + 8
+  const parts = []
+  let x = 4
+  for (const tag of tags) {
+    const width = Math.round(textWidth(tag) + 34)
+    const swatch = BRAND[tag] ?? fallback(mode)
+    parts.push(
+      `<g><rect x="${x}" y="4" width="${width}" height="${CHIP_H}" rx="7" fill="${t.panel}" stroke="${t.rule}"/>` +
+        `<circle cx="${x + 15}" cy="${4 + CHIP_H / 2}" r="4" fill="${swatch}"/>` +
+        `<text x="${x + 26}" y="${23.5}" font-family="${SANS}" font-size="13" fill="${t.ink2}">${escape(tag)}</text></g>`,
+    )
+    x += width + CHIP_GAP
+  }
+  const width = x + 4
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Built with ${escape(tags.join(', '))}">
+  <rect width="${width}" height="${height}" fill="${t.bg}"/>
+  ${parts.join('\n  ')}
+</svg>
+`
+}
+
+
 const START = '<!-- SKILLS:START -->'
 const END = '<!-- SKILLS:END -->'
 
@@ -135,6 +173,14 @@ if (!Array.isArray(cv.skills) || cv.skills.length === 0) {
 
 for (const mode of ['light', 'dark']) {
   writeFileSync(`assets/skills-${mode}.svg`, render(cv.skills, mode))
+}
+
+for (const project of cv.projects ?? []) {
+  const slug = PROJECT_SLUGS[project.name]
+  if (!slug) continue
+  for (const mode of ['light', 'dark']) {
+    writeFileSync(`assets/tags-${slug}-${mode}.svg`, renderTagStrip(project.tags, mode))
+  }
 }
 
 const block = [
