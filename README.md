@@ -11,7 +11,12 @@ I like the unglamorous parts: what happens when the signal drops, what happens
 when two people press the same button, and what happens when someone pulls your
 app apart to see what's inside.
 
-**[Read my CV](https://sayamdev.github.io/cv/)** · **[Email](mailto:asfcit15sayamajmal@gmail.com)** · **[LinkedIn](https://linkedin.com/in/sayam-ajmal)**
+<p>
+  <a href="https://sayamdev.github.io/cv/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-cv-dark.svg"><img alt="Read my CV" src="assets/link-cv-light.svg"></picture></a>
+  <a href="mailto:asfcit15sayamajmal@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-email-dark.svg"><img alt="Email me" src="assets/link-email-light.svg"></picture></a>
+  <a href="https://linkedin.com/in/sayam-ajmal"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-linkedin-dark.svg"><img alt="LinkedIn" src="assets/link-linkedin-light.svg"></picture></a>
+  <a href="https://github.com/SayamDev?tab=repositories"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-github-dark.svg"><img alt="GitHub repositories" src="assets/link-github-light.svg"></picture></a>
+</p>
 
 ---
 
@@ -66,14 +71,38 @@ losing marks. Runs entirely in the browser.
 
 ---
 
-## Working with
+## Skills
 
-`TypeScript` · `React` · `React Native / Expo` · `Node` · `PostgreSQL` ·
-`Supabase` · `SQL` · `Power BI` · `GA4` · `n8n` · `GitHub Actions`
+<!-- SKILLS:START -->
 
-Day to day I work with Claude, Copilot and Amazon Q — at TCS that cut repetitive
-development effort by about 30%. I treat them as tools with failure modes, not
-as an answer.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
+  <img alt="Data &amp; analytics: SQL, Power BI, Relational data modelling, GA4, Data layers, Data auditing, Reporting &amp; visualisation, Digital measurement. Development: JavaScript, TypeScript, React, React Native, HTML, CSS / SCSS, Node.js, Express.js, MongoDB. Solutions &amp; automation: Workflow automation, REST APIs, System &amp; tool integration, Process improvement, Requirements analysis, Proof of concept, CRM, n8n, Supabase. AI &amp; automation: Claude, GitHub Copilot, Amazon Q, LLM workflows, Prompt engineering. Quality &amp; compliance: Functional &amp; UI testing, Defect investigation, Audit trails, Structured testing processes, ISO 27001 awareness. Delivery: Agile, Scrum, User stories, Stakeholder communication, Git, Jenkins, CI/CD, Azure DevOps. Research methods: Usability testing, Heuristic evaluation, Journey mapping, Heatmaps, Card sorting, SUS surveys, A/B testing, Competitor analysis, UX audits, User flows, Personas" src="assets/skills-light.svg">
+</picture>
+
+<sub>Generated from [my CV data](https://github.com/SayamDev/cv/blob/main/src/data/cv.ts) on 2026-09-10 — I edit one file and this panel redraws itself.</sub>
+
+<!-- SKILLS:END -->
+
+<details>
+<summary>Previously worked with</summary>
+
+<br>
+
+`.NET` · `C#` · `VB.NET` · `Angular` · `WordPress` · `Java` · `PHP` · `MongoDB`
+
+Still readable, still useful in a code review — just not what I reach for now.
+
+</details>
+
+---
+
+<sub>**How this page maintains itself:** my CV lives in one typed file in the
+[`cv`](https://github.com/SayamDev/cv) repository. That repository publishes
+itself as JSON, and a scheduled workflow here fetches it and redraws the skills
+panel above in both light and dark. I update one file; the CV site and this
+profile follow. No badge service is involved — every image on this page is
+generated in the repository and served from it.</sub>
 
 ---
 

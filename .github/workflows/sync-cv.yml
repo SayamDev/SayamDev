@@ -1,0 +1,45 @@
+name: Sync skills from CV
+
+# My CV lives in the `cv` repository as one typed file, which publishes itself
+# as JSON. This redraws the skills panel here from that JSON, so updating the
+# CV updates this profile without me touching it.
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+  # `cv` can trigger this immediately after it deploys, rather than waiting for
+  # the next scheduled run.
+  repository_dispatch:
+    types: [cv-updated]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-cv
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Redraw the skills panel
+        run: node scripts/build-profile.mjs
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet; then
+            echo "CV data is unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md
+          git commit -m "chore: sync skills panel with the CV"
+          git push

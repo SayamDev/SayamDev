@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119" height="38" viewBox="0 0 119 38" role="img" aria-label="Read my CV">
+  <rect x="0.5" y="0.5" width="118" height="37" rx="9" fill="#ffffff" stroke="#e4e0d8"/>
+  <rect x="0.5" y="0.5" width="4" height="37" rx="2" fill="#a8460c"/>
+  <text x="61.5" y="23.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#14161a">Read my CV</text>
+</svg>
