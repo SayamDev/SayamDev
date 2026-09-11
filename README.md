@@ -89,6 +89,39 @@ No sign-up — the demo loads a club with a full season already played.
 <table>
 <tr><td width="46%" valign="top">
 
+<a href="https://sayamdev.github.io/setoffiq/"><img alt="SetoffIQ: a recommended departure of 14:25 for an airport pickup, with the passenger's likely ready time, and each input labelled as live, estimated or entered by the user" src="assets/projects/setoffiq.png"></a>
+
+</td><td valign="top">
+
+### SetoffIQ — when to leave for the airport
+
+Picking someone up or dropping them off at Manchester: it works back from the
+flight — landing, border, bags, the walk out — to the time you should leave
+home. Live aircraft positions refine the time from your booking; when nothing
+live is available, it says so instead of guessing.
+
+Costs nothing to run or to use. A scheduled GitHub Action publishes the data a
+browser can't fetch directly, and no credential ever reaches the page.
+
+**[▶ Try it](https://sayamdev.github.io/setoffiq/)** · **[Source](https://github.com/SayamDev/setoffiq)**
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-setoffiq-dark.svg"><img alt="Built with React, TypeScript, GitHub Actions and open data, as a PWA" src="assets/tags-setoffiq-light.svg"></picture>
+
+</td></tr>
+</table>
+
+> **What real data taught me.** The first live run of the road-closures feed
+> returned 24 disruptions near the airport — every one a routine lane closure
+> for maintenance. Letting those widen the estimate would have put a permanent
+> 6–12% penalty on every recommendation, and a warning that is always on is not
+> a warning. Now only closures actually in force move the number; the rest are
+> reported, not counted.
+
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
 <a href="https://sayamdev.github.io/atc-aptitude-drills/"><img alt="ATC Aptitude Drills: the SCALES module list, each drill showing its code, duration and what it tests" src="assets/projects/atc.png"></a>
 
 </td><td valign="top">

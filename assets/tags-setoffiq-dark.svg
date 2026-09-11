@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="516" height="38" viewBox="0 0 516 38" role="img" aria-label="Built with React, TypeScript, GitHub Actions, Open data, PWA">
+  <rect width="516" height="38" fill="#0e0f12"/>
+  <g><rect x="4" y="4" width="71" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="19" cy="19" r="4" fill="#61dafb"/><text x="30" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">React</text></g>
+  <g><rect x="83" y="4" width="107" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="98" cy="19" r="4" fill="#3178c6"/><text x="109" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">TypeScript</text></g>
+  <g><rect x="198" y="4" width="135" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="213" cy="19" r="4" fill="#2088ff"/><text x="224" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">GitHub Actions</text></g>
+  <g><rect x="341" y="4" width="99" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="356" cy="19" r="4" fill="#f0a06a"/><text x="367" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">Open data</text></g>
+  <g><rect x="448" y="4" width="56" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="463" cy="19" r="4" fill="#5a0fc8"/><text x="474" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">PWA</text></g>
+</svg>

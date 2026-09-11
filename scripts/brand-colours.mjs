@@ -36,6 +36,8 @@ export const BRAND = {
   Python: '#3776ab',
   Java: '#ea2d2e',
   PHP: '#777bb4',
+  'GitHub Actions': '#2088ff',
+  PWA: '#5a0fc8',
 }
 
 /** Everything without a brand colour falls back to the page accent. */
