@@ -89,7 +89,7 @@ No sign-up — the demo loads a club with a full season already played.
 <table>
 <tr><td width="46%" valign="top">
 
-<a href="https://sayamdev.github.io/setoffiq/"><img alt="SetoffIQ: a recommended departure of 14:25 for an airport pickup, with the passenger's likely ready time, and each input labelled as live, estimated or entered by the user" src="assets/projects/setoffiq.png"></a>
+<a href="https://sayamdev.github.io/setoffiq/"><img alt="SetoffIQ home page: the wordmark, with the o drawn as a clock dial, above the line Know when to set off. Know when to wait., and a choice between planning a pickup or a drop-off" src="assets/projects/setoffiq.png"></a>
 
 </td><td valign="top">
 
