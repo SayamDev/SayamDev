@@ -25,13 +25,13 @@ app apart to see what's inside.
 <table>
 <tr><td width="46%" valign="top">
 
-<a href="https://sayamdev.github.io/relay/"><img alt="Relay: an enquiry classified as a high-priority sales enquiry, with extracted fields and a drafted reply awaiting approval" src="assets/projects/relay.png"></a>
+<a href="https://sayamdev.github.io/revamp/"><img alt="Revamp: an enquiry classified as a high-priority sales enquiry, with extracted fields and a drafted reply awaiting approval" src="assets/projects/revamp.png"></a>
 
 </td><td valign="top">
 
-### Relay — AI for business operations
+### Revamp — AI for business operations
 
-Enquiries and complaints arrive; Relay reads them, decides what they are and how
+Enquiries and complaints arrive; Revamp reads them, decides what they are and how
 urgent, extracts the commercial detail, opens the follow-up task and drafts the
 reply — then stops and waits for a person. Every decision lands in an audit trail.
 
@@ -39,9 +39,9 @@ Runs on a deterministic rules engine, so the public demo costs nothing to host.
 The same interface drives a local model through Ollama, and the same workflows
 execute in n8n.
 
-**[▶ Try the demo](https://sayamdev.github.io/relay/)** · **[Source](https://github.com/SayamDev/relay)**
+**[▶ Try the demo](https://sayamdev.github.io/revamp/)** · **[Source](https://github.com/SayamDev/revamp)**
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-relay-dark.svg"><img alt="Built with React, TypeScript, an AI provider abstraction, n8n and Ollama" src="assets/tags-relay-light.svg"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-revamp-dark.svg"><img alt="Built with React, TypeScript, an AI provider abstraction, n8n and Ollama" src="assets/tags-revamp-light.svg"></picture>
 
 </td></tr>
 </table>
@@ -222,5 +222,5 @@ generated in the repository and served from it.</sub>
 ---
 
 Open to work in technical delivery, development, data or digital transformation.
-The quickest way to see how I build is the Relay demo above — it covers the
+The quickest way to see how I build is the Revamp demo above — it covers the
 architecture, the guardrails and the reasoning behind both.

@@ -131,7 +131,7 @@ for (const mode of ['light', 'dark']) {
  * ------------------------------------------------------------------------ */
 
 const PROJECT_SLUGS = {
-  Relay: 'relay',
+  Revamp: 'revamp',
   Bubiqo: 'bubiqo',
   TurfXI: 'turfxi',
   SetoffIQ: 'setoffiq',
