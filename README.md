@@ -93,15 +93,25 @@ No sign-up — the demo loads a club with a full season already played.
 
 </td><td valign="top">
 
-### Bubiqo — what the job advert actually says
+### Bubiqo — the useful parts of the page you are on
 
-A browser extension that reads the page in front of you. On a job advert it
-finds the pay, the closing date, and the conditions buried three-quarters of the
-way down, quoting the advert for every one of them.
+A Chrome side panel that reads whatever page you have open and pulls out the
+parts you would otherwise go hunting for.
 
-Nothing leaves the machine. No host permissions at install, no content scripts,
+- **Job adverts** — pay, closing date, contract, location, the requirements, and
+  any condition the advert sets: DBS, clearance, right to work, each quoted from
+  the text.
+- **Emails** — the deadline, what was asked of you, what you promised.
+- **Invoices** — supplier, total, reference, due date.
+- **Anything carrying a date** — bookings, renewals, appointments, tickets.
+
+It then offers to save it, copy it, set a reminder, or make a calendar file. It
+never sends, submits, posts or pays, and it cannot read a page you have not
+opened it on.
+
+Nothing leaves the device: no host permissions at install, no content scripts,
 one network call in the whole codebase, and no model anywhere near the reading —
-which is what lets 477 tests hold it in place.
+which is what lets 477 tests hold the behaviour in place.
 
 **[Source](https://github.com/SayamDev/bubiqo)** · **[How it reads a page](https://github.com/SayamDev/bubiqo/blob/main/docs/adr/0002-deterministic-core.md)**
 
