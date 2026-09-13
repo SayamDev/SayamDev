@@ -89,6 +89,39 @@ No sign-up — the demo loads a club with a full season already played.
 <table>
 <tr><td width="46%" valign="top">
 
+<a href="https://github.com/SayamDev/bubiqo"><img alt="Bubiqo: the side panel beside a job advert, showing the pay, the closing date and the conditions the advert sets" src="assets/projects/bubiqo.png"></a>
+
+</td><td valign="top">
+
+### Bubiqo — what the job advert actually says
+
+A browser extension that reads the page in front of you. On a job advert it
+finds the pay, the closing date, and the conditions buried three-quarters of the
+way down, quoting the advert for every one of them.
+
+Nothing leaves the machine. No host permissions at install, no content scripts,
+one network call in the whole codebase, and no model anywhere near the reading —
+which is what lets 477 tests hold it in place.
+
+**[Source](https://github.com/SayamDev/bubiqo)** · **[How it reads a page](https://github.com/SayamDev/bubiqo/blob/main/docs/adr/0002-deterministic-core.md)**
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-bubiqo-dark.svg"><img alt="Built with TypeScript, Chrome MV3 and React, privacy-first, tested with Vitest" src="assets/tags-bubiqo-light.svg"></picture>
+
+</td></tr>
+</table>
+
+> **The line I had to delete.** It used to say *"Ruled out"* when an advert asked
+> for a DBS check. That is the product claiming to know something about the
+> reader from evidence that is only about the advert — you might hold one, or
+> get one in a fortnight. It was ruling people out of jobs nobody had ruled them
+> out of. Conditions are now stated as what the advert asks, with a button that
+> says *I have this*, and the answer is remembered.
+
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
 <a href="https://sayamdev.github.io/setoffiq/"><img alt="SetoffIQ home page: the wordmark, with the o drawn as a clock dial, above the line Know when to set off. Know when to wait., and a choice between planning a pickup or a drop-off" src="assets/projects/setoffiq.png"></a>
 
 </td><td valign="top">

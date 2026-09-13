@@ -132,6 +132,7 @@ for (const mode of ['light', 'dark']) {
 
 const PROJECT_SLUGS = {
   Relay: 'relay',
+  Bubiqo: 'bubiqo',
   TurfXI: 'turfxi',
   SetoffIQ: 'setoffiq',
   'ATC Aptitude Drills': 'atc',
