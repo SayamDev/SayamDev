@@ -25,6 +25,42 @@ app apart to see what's inside.
 <table>
 <tr><td width="46%" valign="top">
 
+<a href="https://oruk-navigator.vercel.app"><img alt="ORUK Navigator: the Find support in Tameside home page, with the reviewed topics this pilot covers and the search that starts the journey" src="assets/projects/oruk.png"></a>
+
+</td><td valign="top">
+
+### ORUK Navigator — council pages, published as data
+
+Tameside Council lists its support services as web pages, so anyone who wants
+that information as data types it out again. Navigator reads a reviewed set of
+those pages, keeps the evidence behind every fact, makes a person approve
+anything that goes public, and republishes the lot as an Open Referral UK v3
+feed. It passes the standard's own validator.
+
+A C# tool alongside it reports how usable any ORUK feed is. Pointed at two live
+council feeds, it found records nobody had checked in over a year and a profile
+URL still set to the placeholder from the docs.
+
+**[▶ Try it](https://oruk-navigator.vercel.app)** · **[The feed](https://oruk-navigator.vercel.app/api/oruk/v3)** · **[Source](https://github.com/SayamDev/ORUK-Navigator)**
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-oruk-dark.svg"><img alt="Built with Next.js, TypeScript, PostgreSQL, C#, .NET and Open Referral UK" src="assets/tags-oruk-light.svg"></picture>
+
+</td></tr>
+</table>
+
+> **Where I drew the line.** The search covers ten services, and it would have
+> been easy to fill it out with another council's feed — thousands of records,
+> instantly. I did not, because reading someone else's feed is allowed and
+> republishing their records is not, and nobody had granted that. So the other
+> feeds appear as a report on what they publish, with a test that proves not one
+> of their records survives into my pages. A smaller catalogue I can defend beats
+> a large one I cannot.
+
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
 <a href="https://sayamdev.github.io/revamp/"><img alt="Revamp: an enquiry classified as a high-priority sales enquiry, with extracted fields and a drafted reply awaiting approval" src="assets/projects/revamp.png"></a>
 
 </td><td valign="top">

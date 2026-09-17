@@ -38,6 +38,10 @@ export const BRAND = {
   PHP: '#777bb4',
   'GitHub Actions': '#2088ff',
   PWA: '#5a0fc8',
+  'Next.js': '#111111',
+  'C#': '#8a4dbb',
+  '.NET': '#512bd4',
+  'Open Referral UK': '#243588',
 }
 
 /** Everything without a brand colour falls back to the page accent. */

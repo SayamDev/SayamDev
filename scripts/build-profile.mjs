@@ -131,6 +131,7 @@ for (const mode of ['light', 'dark']) {
  * ------------------------------------------------------------------------ */
 
 const PROJECT_SLUGS = {
+  'ORUK Navigator': 'oruk',
   Revamp: 'revamp',
   Bubiqo: 'bubiqo',
   TurfXI: 'turfxi',
