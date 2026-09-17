@@ -31,15 +31,15 @@ app apart to see what's inside.
 
 ### ORUK Navigator — council pages, published as data
 
-Tameside Council lists its support services as web pages, so anyone who wants
-that information as data types it out again. Navigator reads a reviewed set of
-those pages, keeps the evidence behind every fact, makes a person approve
-anything that goes public, and republishes the lot as an Open Referral UK v3
-feed. It passes the standard's own validator.
+Ask for help in Tameside and the answer is spread across council pages you would
+have to know to look for. Navigator lets you describe what is wrong in your own
+words, shows what might help and why it matched, and links to the council's own
+page so you can check it yourself.
 
-A C# tool alongside it reports how usable any ORUK feed is. Pointed at two live
-council feeds, it found records nobody had checked in over a year and a profile
-URL still set to the placeholder from the docs.
+Behind it, the same reviewed information is published in the open format councils
+use to share service data, so nobody has to copy it out by hand. A C# tool
+alongside it checks any council's feed and reports what is missing — pointed at
+two live ones, it found records nobody had checked in over a year.
 
 **[▶ Try it](https://oruk-navigator.vercel.app)** · **[The feed](https://oruk-navigator.vercel.app/api/oruk/v3)** · **[Source](https://github.com/SayamDev/ORUK-Navigator)**
 
