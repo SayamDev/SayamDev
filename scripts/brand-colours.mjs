@@ -39,6 +39,8 @@ export const BRAND = {
   'GitHub Actions': '#2088ff',
   PWA: '#5a0fc8',
   'Next.js': '#111111',
+  Groq: '#f55036',
+  'Web Speech API': '#4285f4',
   'C#': '#8a4dbb',
   '.NET': '#512bd4',
   'Open Referral UK': '#243588',

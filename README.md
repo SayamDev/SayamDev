@@ -61,6 +61,42 @@ two live ones, it found records nobody had checked in over a year.
 <table>
 <tr><td width="46%" valign="top">
 
+<img alt="Rehearse home page: the question What job are you practicing for?, a job title box, and a sample answer that went from 5.8 on the first take to 7.6 on the second" src="assets/projects/rehearse.png">
+
+</td><td valign="top">
+
+### Rehearse — interview practice that talks back
+
+For people who never get coached before an interview: school leavers, career
+changers, anyone with a gap or a record they are dreading being asked about. You
+answer out loud, get a score and one thing to fix, then take it again and watch
+the number move.
+
+There is a hands-free mode where the interviewer listens, reacts to what you
+actually said and asks a follow-up, and checks in if you go quiet. Guides cover
+the hard parts: a gap, being fired, a disability, a conviction.
+
+It costs nothing to run. The notes come from a free AI tier, the voice runs in
+the visitor's browser, and when the free allowance runs out it switches to
+built-in notes instead of a paywall.
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-rehearse-dark.svg"><img alt="Built with Next.js, TypeScript, Groq, Web Speech API and PWA" src="assets/tags-rehearse-light.svg"></picture>
+
+</td></tr>
+</table>
+
+> **The provider I turned down.** One AI provider's free tier would have been
+> the easiest to wire up. Its terms let it keep and review what people type, and
+> it is for over-18s only. This app is meant for teenagers too, and people type
+> things into it they would not say out loud. So it runs on a provider that
+> keeps nothing by default, and the code caps its own usage just under the free
+> limit, so it stays free even if the account were ever upgraded.
+
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
 <a href="https://sayamdev.github.io/revamp/"><img alt="Revamp: an enquiry classified as a high-priority sales enquiry, with extracted fields and a drafted reply awaiting approval" src="assets/projects/revamp.png"></a>
 
 </td><td valign="top">
@@ -231,7 +267,7 @@ Nothing is uploaded — it all runs in the browser.
   <img alt="Data &amp; analytics: SQL, Power BI, Relational data modelling, GA4, Data layers, Data auditing, Reporting &amp; visualisation, Digital measurement. Development: JavaScript, TypeScript, React, React Native, HTML, CSS / SCSS, Node.js, Express.js, MongoDB. Solutions &amp; automation: Workflow automation, REST APIs, System &amp; tool integration, Process improvement, Requirements analysis, Proof of concept, CRM, n8n, Supabase. AI &amp; automation: Claude, GitHub Copilot, Amazon Q, LLM workflows, Prompt engineering. Quality &amp; compliance: Functional &amp; UI testing, Defect investigation, Audit trails, Structured testing processes, ISO 27001 awareness. Delivery: Agile, Scrum, User stories, Stakeholder communication, Git, Jenkins, CI/CD, Azure DevOps. Research methods: Usability testing, Heuristic evaluation, Journey mapping, Heatmaps, Card sorting, SUS surveys, A/B testing, Competitor analysis, UX audits, User flows, Personas" src="assets/skills-light.svg">
 </picture>
 
-<sub>Generated from [my CV data](https://github.com/SayamDev/cv/blob/main/src/data/cv.ts) on 2026-09-17 — I edit one file and this panel redraws itself.</sub>
+<sub>Generated from [my CV data](https://github.com/SayamDev/cv/blob/main/src/data/cv.ts) on 2026-09-24 — I edit one file and this panel redraws itself.</sub>
 
 <!-- SKILLS:END -->
 

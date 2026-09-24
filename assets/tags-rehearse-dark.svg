@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="38" viewBox="0 0 495 38" role="img" aria-label="Built with Next.js, TypeScript, Groq, Web Speech API, PWA">
+  <rect width="495" height="38" fill="#0e0f12"/>
+  <g><rect x="4" y="4" width="85" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="19" cy="19" r="4" fill="#111111"/><text x="30" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">Next.js</text></g>
+  <g><rect x="97" y="4" width="107" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="112" cy="19" r="4" fill="#3178c6"/><text x="123" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">TypeScript</text></g>
+  <g><rect x="212" y="4" width="64" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="227" cy="19" r="4" fill="#f55036"/><text x="238" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">Groq</text></g>
+  <g><rect x="284" y="4" width="135" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="299" cy="19" r="4" fill="#4285f4"/><text x="310" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">Web Speech API</text></g>
+  <g><rect x="427" y="4" width="56" height="30" rx="7" fill="#16181c" stroke="#262a30"/><circle cx="442" cy="19" r="4" fill="#5a0fc8"/><text x="453" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#c9c6c0">PWA</text></g>
+</svg>
