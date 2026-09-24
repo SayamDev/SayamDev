@@ -61,7 +61,7 @@ two live ones, it found records nobody had checked in over a year.
 <table>
 <tr><td width="46%" valign="top">
 
-<img alt="Rehearse home page: the question What job are you practicing for?, a job title box, and a sample answer that went from 5.8 on the first take to 7.6 on the second" src="assets/projects/rehearse.png">
+<a href="https://rehearse.sayamdev.workers.dev"><img alt="Rehearse home page: the question What job are you practicing for?, a job title box, and a sample answer that went from 5.8 on the first take to 7.6 on the second" src="assets/projects/rehearse.png"></a>
 
 </td><td valign="top">
 
@@ -79,6 +79,8 @@ the hard parts: a gap, being fired, a disability, a conviction.
 It costs nothing to run. The notes come from a free AI tier, the voice runs in
 the visitor's browser, and when the free allowance runs out it switches to
 built-in notes instead of a paywall.
+
+**[▶ Try it](https://rehearse.sayamdev.workers.dev)**
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-rehearse-dark.svg"><img alt="Built with Next.js, TypeScript, Groq, Web Speech API and PWA" src="assets/tags-rehearse-light.svg"></picture>
 
