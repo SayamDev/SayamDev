@@ -133,6 +133,7 @@ for (const mode of ['light', 'dark']) {
 const PROJECT_SLUGS = {
   'ORUK Navigator': 'oruk',
   Rehearse: 'rehearse',
+  'Rehearse Courage': 'courage',
   Revamp: 'revamp',
   Bubiqo: 'bubiqo',
   TurfXI: 'turfxi',

@@ -99,6 +99,41 @@ built-in notes instead of a paywall.
 <table>
 <tr><td width="46%" valign="top">
 
+<a href="https://rehearse-courage.sayamdev.workers.dev"><img alt="Rehearse Courage home page: Hi Sam, today's one step, a Join a conversation card on step 4 of 6, the firefly companion waving, and courage level 3, Ember" src="assets/projects/courage.png"></a>
+
+</td><td valign="top">
+
+### Rehearse Courage — speaking up, one small step at a time
+
+Rehearse's sister app, for anyone who finds it hard to speak up: in class, with
+friends, in front of a group, or ordering food and making a phone call. It is
+built for children as much as adults, and for anxiety, blushing, ADHD, shyness
+and stuttering.
+
+Every moment climbs six small steps, from thinking it to doing it for real, with
+calm-down tools, warm-up games, a tiny real-life dare each day, and a journey
+page of proud moments that can be shared as a picture made on the phone. No
+accounts, and everything stays on the device.
+
+**[▶ Try it](https://rehearse-courage.sayamdev.workers.dev)**
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-courage-dark.svg"><img alt="Built with Next.js, TypeScript, Cloudflare Workers, on-device AI and WCAG 2.2 AA" src="assets/tags-courage-light.svg"></picture>
+
+</td></tr>
+</table>
+
+> **The number I refused to show.** The easiest progress metric was right there:
+> the app already knows how long you spoke, so it could score how smoothly you
+> spoke. For someone who stutters, that turns practice into a test they fail
+> every day. So it rewards trying and nothing else: no fluency score, no pause
+> count, no streak to break, not even as praise. Progress is levels that only go
+> up, and brave days that add up and never reset.
+
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
 <a href="https://sayamdev.github.io/revamp/"><img alt="Revamp: an enquiry classified as a high-priority sales enquiry, with extracted fields and a drafted reply awaiting approval" src="assets/projects/revamp.png"></a>
 
 </td><td valign="top">
@@ -269,7 +304,7 @@ Nothing is uploaded — it all runs in the browser.
   <img alt="Data &amp; analytics: SQL, Power BI, Relational data modelling, GA4, Data layers, Data auditing, Reporting &amp; visualisation, Digital measurement. Development: JavaScript, TypeScript, React, React Native, HTML, CSS / SCSS, Node.js, Express.js, MongoDB. Solutions &amp; automation: Workflow automation, REST APIs, System &amp; tool integration, Process improvement, Requirements analysis, Proof of concept, CRM, n8n, Supabase. AI &amp; automation: Claude, GitHub Copilot, Amazon Q, LLM workflows, Prompt engineering. Quality &amp; compliance: Functional &amp; UI testing, Defect investigation, Audit trails, Structured testing processes, ISO 27001 awareness. Delivery: Agile, Scrum, User stories, Stakeholder communication, Git, Jenkins, CI/CD, Azure DevOps. Research methods: Usability testing, Heuristic evaluation, Journey mapping, Heatmaps, Card sorting, SUS surveys, A/B testing, Competitor analysis, UX audits, User flows, Personas" src="assets/skills-light.svg">
 </picture>
 
-<sub>Generated from [my CV data](https://github.com/SayamDev/cv/blob/main/src/data/cv.ts) on 2026-09-24 — I edit one file and this panel redraws itself.</sub>
+<sub>Generated from [my CV data](https://github.com/SayamDev/cv/blob/main/src/data/cv.ts) on 2026-09-28 — I edit one file and this panel redraws itself.</sub>
 
 <!-- SKILLS:END -->
 
