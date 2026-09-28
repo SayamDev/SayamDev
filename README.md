@@ -115,7 +115,7 @@ calm-down tools, warm-up games, a tiny real-life dare each day, and a journey
 page of proud moments that can be shared as a picture made on the phone. No
 accounts, and everything stays on the device.
 
-**[▶ Try it](https://rehearse-courage.sayamdev.workers.dev)**
+**[▶ Try it](https://rehearse-courage.sayamdev.workers.dev)** · **[Source](https://github.com/SayamDev/rehearse-courage)**
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-courage-dark.svg"><img alt="Built with Next.js, TypeScript, Cloudflare Workers, on-device AI and WCAG 2.2 AA" src="assets/tags-courage-light.svg"></picture>
 
