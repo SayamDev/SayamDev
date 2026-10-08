@@ -25,6 +25,28 @@ app apart to see what's inside.
 <table>
 <tr><td width="46%" valign="top">
 
+<a href="https://sayamdev.github.io/latest-cookie/"><img alt="Latest Cookie: warm paper, orange cookie artwork, source-linked tech stories and the daily news desk" src="assets/projects/latest-cookie.png"></a>
+
+</td><td valign="top">
+
+### Latest Cookie — tech worth your time
+
+A free place to catch up on technology, find a good video and compare AI models. Daily headlines link to the original publishers; story bookmarks stay in the browser. Model Lab brings together sourced capability scores, speed and cost charts, a three-model shortlist and an API pricing calculator.
+
+I built the scheduled feed pipeline with input validation, visible timestamps and last-good fallbacks. Benchmark capability, popularity and provider pricing stay separate, and unknown measurements stay unknown. The interface has keyboard access, light and dark themes, and an interactive guide.
+
+**[Try it](https://sayamdev.github.io/latest-cookie/)** · **[Source](https://github.com/SayamDev/latest-cookie)**
+
+React · TypeScript · GitHub Actions · Zod · Playwright
+
+</td></tr>
+</table>
+
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
 <a href="https://sayamdev.github.io/focus-and-snuggery/"><img alt="Focus &amp; Snuggery: a calm welcome with an optional name and local natural voice download" src="assets/projects/focus-and-snuggery.png"></a>
 
 </td><td valign="top">
