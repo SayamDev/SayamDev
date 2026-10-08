@@ -25,6 +25,28 @@ app apart to see what's inside.
 <table>
 <tr><td width="46%" valign="top">
 
+<a href="https://sayamdev.github.io/focus-and-snuggery/"><img alt="Focus &amp; Snuggery: a calm welcome with an optional name and local natural voice download" src="assets/projects/focus-and-snuggery.png"></a>
+
+</td><td valign="top">
+
+### Focus & Snuggery — a little room to begin
+
+When a long list makes starting harder, put the thoughts down first. Write or dictate a note, review the small steps, then focus on one task. A gentle timer, optional Pomodoro rhythm and calming tools leave the pace up to you.
+
+Tasks stay in the browser. Natural read-aloud and speech recognition run on the device after an optional download. Keyboard access, adjustable text, sensory themes and editable suggestions are part of the core flow.
+
+**[Try it](https://sayamdev.github.io/focus-and-snuggery/)** · **[Source](https://github.com/SayamDev/focus-and-snuggery)**
+
+React · TypeScript · Dexie · On-device AI · Playwright · PWA
+
+</td></tr>
+</table>
+
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
 <a href="https://oruk-navigator.vercel.app"><img alt="ORUK Navigator: the Find support in Tameside home page, with the reviewed topics this pilot covers and the search that starts the journey" src="assets/projects/oruk.png"></a>
 
 </td><td valign="top">
