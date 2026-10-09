@@ -25,6 +25,30 @@ app apart to see what's inside.
 <table>
 <tr><td width="46%" valign="top">
 
+<a href="https://sayamdev.github.io/hudl-n-game/"><img alt="Hudl N Game: five colourful party-game worlds, with distinctive alibi characters" src="assets/projects/hudl-n-game.png"></a>
+
+</td><td valign="top">
+
+### Hudl N Game — good company, bad alibis
+
+Five party games on one phone: Imposter, Mafia, Where Are We?, Heads Up! and Most Likely To / Hot Takes. Add your crew, learn the secret reveal by trying it, and pass the phone.
+
+Designed a distinct visual world for each game, colourful alibi characters and touch-friendly controls. Names, scores and packs stay on the device; history-aware selection helps reduce repeat words and roles. The core games and pack mixer work offline after caching.
+
+**[▶ Play together](https://sayamdev.github.io/hudl-n-game/)** · **[Source](https://github.com/SayamDev/hudl-n-game)**
+
+React · TypeScript · Zustand · Motion · PWA · Playwright
+
+</td></tr>
+</table>
+
+> **One shared screen, five private roles.** Holding reveals a secret; release, focus loss or leaving the page hides it. Optional AI pack generation stays behind a server adapter and produces a draft to review. The public demo uses the offline mixer, with no accounts or API keys needed.
+
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
 <a href="https://sayamdev.github.io/latest-cookie/"><img alt="Latest Cookie: warm paper, orange cookie artwork, source-linked tech stories and the daily news desk" src="assets/projects/latest-cookie.png"></a>
 
 </td><td valign="top">
