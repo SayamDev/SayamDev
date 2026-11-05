@@ -22,6 +22,16 @@ app apart to see what's inside.
 
 ## Selected work
 
+### Context Desk — multilingual video editing with AI
+
+I participated in the Meta AI Developer Hackathon and built Context Desk, an open-source local video studio for finding story moments, reviewing multilingual subtitles and creating editable clips. It uses Meta Muse Voice for transcription and Muse Spark to assess sampled frames and transcripts; source evidence and subtitle drafts stay available for human review.
+
+**[Explore the project](https://github.com/SayamDev/context-desk)**
+
+Node.js · JavaScript · SQLite · FFmpeg · Meta Muse
+
+---
+
 <table>
 <tr><td width="46%" valign="top">
 
