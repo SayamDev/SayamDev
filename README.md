@@ -22,15 +22,29 @@ app apart to see what's inside.
 
 ## Selected work
 
-### Context Desk — multilingual video editing with AI
+<table>
+<tr><td width="46%" valign="top">
 
-I participated in the Meta AI Developer Hackathon and built Context Desk, an open-source local video studio for finding story moments, reviewing multilingual subtitles and creating editable clips. It uses Meta Muse Voice for transcription and Muse Spark to assess sampled frames and transcripts; source evidence and subtitle drafts stay available for human review.
+<a href="https://github.com/SayamDev/context-desk"><img alt="Context Desk artwork: a film strip and play button in purple and lime" src="https://raw.githubusercontent.com/SayamDev/context-desk/main/public/assets/context-desk-studio.webp"></a>
 
-**[Explore the project](https://github.com/SayamDev/context-desk)**
+</td><td valign="top">
 
-Node.js · JavaScript · SQLite · FFmpeg · Meta Muse
+### Context Desk — find the story in the footage
 
----
+I built Context Desk for the Meta AI Developer Hackathon: an open-source local studio that helps turn long recordings into editable clips, with multilingual subtitles to review.
+
+Meta Muse Voice transcribes the audio; Muse Spark assesses sampled frames and transcripts to suggest story moments. Editors can check the source, correct captions, trim a clip and export it with FFmpeg.
+
+**[Source and setup](https://github.com/SayamDev/context-desk)**
+
+JavaScript · Node.js · SQLite · FFmpeg · Meta Muse
+
+</td></tr>
+</table>
+
+> **Keep the editor in control.** Story suggestions and translations are drafts, with source evidence alongside them. Caption timing and wording can be corrected before export; an uncertain translation needs review rather than being treated as a finished result.
+
+<br>
 
 <table>
 <tr><td width="46%" valign="top">
