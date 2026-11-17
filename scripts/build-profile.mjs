@@ -139,6 +139,7 @@ const PROJECT_SLUGS = {
   TurfXI: 'turfxi',
   SetoffIQ: 'setoffiq',
   'ATC Aptitude Drills': 'atc',
+  SixRadar: 'sixradar',
 }
 
 function renderTagStrip(tags, mode) {

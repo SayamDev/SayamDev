@@ -25,6 +25,39 @@ app apart to see what's inside.
 <table>
 <tr><td width="46%" valign="top">
 
+<a href="https://sixradar.com"><img alt="SixRadar: the GTA 6 places page, with a radar instrument sweeping over the six named places in Leonida beside a description of Vice City" src="assets/projects/sixradar.png"></a>
+
+</td><td valign="top">
+
+### SixRadar — everything GTA 6, the second it drops
+
+I designed, built and run SixRadar, an independent GTA 6 news, tools and
+community site, live on its own domain for launch week. Live news and videos
+from YouTube, TikTok, Instagram, Facebook and Reddit, sourced answers to what
+players actually search for, an interactive map, a launch live blog, a daily
+quiz with a world leaderboard and opt-in browser news alerts.
+
+It runs on Cloudflare Workers with D1 and KV, deploys on every push, and scores
+100 on Lighthouse accessibility. The source is private; the site is the demo.
+
+**[▶ Visit SixRadar](https://sixradar.com)**
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags-sixradar-dark.svg"><img alt="Built with Astro, TypeScript, Cloudflare Workers, D1 and Web Push" src="assets/tags-sixradar-light.svg"></picture>
+
+</td></tr>
+</table>
+
+> **The rule I put in the code.** A fan site in launch week is surrounded by
+> leaks and rumours, and the fastest way to grow is to repeat them. SixRadar
+> won't: a cheat, collectible or map pin can't be published without an official
+> source or two independent sites that agree, and the build fails if one slips
+> through. Anything not yet checked in-game is labelled as such.
+
+<br>
+
+<table>
+<tr><td width="46%" valign="top">
+
 <a href="https://github.com/SayamDev/context-desk"><img alt="Context Desk artwork: a film strip and play button in purple and lime" src="https://raw.githubusercontent.com/SayamDev/context-desk/main/public/assets/context-desk-studio.webp"></a>
 
 </td><td valign="top">
