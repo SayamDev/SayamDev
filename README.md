@@ -58,17 +58,17 @@ It runs on Cloudflare Workers with D1 and KV, deploys on every push, and scores
 <table>
 <tr><td width="46%" valign="top">
 
-<a href="https://github.com/SayamDev/context-desk"><img alt="Context Desk artwork: a film strip and play button in purple and lime" src="https://raw.githubusercontent.com/SayamDev/context-desk/main/public/assets/context-desk-studio.webp"></a>
+<a href="https://x.com/Sayam_Ajmal/status/2118146228328534245"><img alt="Context Desk artwork: a film strip and play button in purple and lime" src="assets/projects/context-desk.jpg"></a>
 
 </td><td valign="top">
 
 ### Context Desk — find the story in the footage
 
-I built Context Desk for the Meta AI Developer Hackathon: an open-source local studio that helps turn long recordings into editable clips, with multilingual subtitles to review.
+I built and submitted Context Desk to the Meta AI Developer Hackathon: a local studio that turns long recordings and live streams into editable clips, with subtitles in 25 languages to review. After the hackathon I took it private, and it now runs my own live clipping.
 
 Meta Muse Voice transcribes the audio; Muse Spark assesses sampled frames and transcripts to suggest story moments. Editors can check the source, correct captions, trim a clip and export it with FFmpeg.
 
-**[Source and setup](https://github.com/SayamDev/context-desk)**
+**[Launch post on X](https://x.com/Sayam_Ajmal/status/2118146228328534245)**
 
 JavaScript · Node.js · SQLite · FFmpeg · Meta Muse
 
