@@ -426,10 +426,10 @@ Nothing is uploaded — it all runs in the browser.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg">
-  <img alt="Data &amp; analytics: SQL, Power BI, Relational data modelling, GA4, Data layers, Data auditing, Reporting &amp; visualisation, Digital measurement. Development: JavaScript, TypeScript, React, React Native, HTML, CSS / SCSS, Node.js, Express.js, MongoDB. Solutions &amp; automation: Workflow automation, REST APIs, System &amp; tool integration, Process improvement, Requirements analysis, Proof of concept, CRM, n8n, Supabase. AI &amp; automation: Claude, GitHub Copilot, Amazon Q, LLM workflows, Prompt engineering. Quality &amp; compliance: Functional &amp; UI testing, Defect investigation, Audit trails, Structured testing processes, ISO 27001 awareness. Delivery: Agile, Scrum, User stories, Stakeholder communication, Git, Jenkins, CI/CD, Azure DevOps. Research methods: Usability testing, Heuristic evaluation, Journey mapping, Heatmaps, Card sorting, SUS surveys, A/B testing, Competitor analysis, UX audits, User flows, Personas" src="assets/skills-light.svg">
+  <img alt="Build: TypeScript, React, Next.js, React Native / Expo, Node.js, Astro, PostgreSQL / Supabase, Cloudflare Workers / D1, PWAs, Playwright. AI and voice: LLM apps (Claude, Groq, Ollama), Speech to text (Whisper), On-device TTS (Kokoro), Meta Muse, Agent workflows, Prompt and fallback design. Content and growth: YouTube Shorts, TikTok, Hooks and titles, Cover design, YouTube and Cloudflare analytics, Paid social, SEO. Product and data: UX research, A/B testing, GA4 and data layers, Power BI, WCAG accessibility. Delivery: Agile / Scrum, Stakeholder communication, Git, CI/CD, Azure DevOps" src="assets/skills-light.svg">
 </picture>
 
-<sub>Generated from [my CV data](https://github.com/SayamDev/cv/blob/main/src/data/cv.ts) on 2026-11-17 — I edit one file and this panel redraws itself.</sub>
+<sub>Generated from [my CV data](https://github.com/SayamDev/cv/blob/main/src/data/cv.ts) on 2026-11-20 — I edit one file and this panel redraws itself.</sub>
 
 <!-- SKILLS:END -->
 

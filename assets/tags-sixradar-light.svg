@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="531" height="38" viewBox="0 0 531 38" role="img" aria-label="Built with Astro, TypeScript, Cloudflare Workers, D1, Web Push">
-  <rect width="531" height="38" fill="#faf9f7"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="588" height="38" viewBox="0 0 588 38" role="img" aria-label="Built with Astro, TypeScript, Cloudflare Workers, D1, Short-form video">
+  <rect width="588" height="38" fill="#faf9f7"/>
   <g><rect x="4" y="4" width="71" height="30" rx="7" fill="#ffffff" stroke="#e4e0d8"/><circle cx="19" cy="19" r="4" fill="#a8460c"/><text x="30" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#3a3f47">Astro</text></g>
   <g><rect x="83" y="4" width="107" height="30" rx="7" fill="#ffffff" stroke="#e4e0d8"/><circle cx="98" cy="19" r="4" fill="#3178c6"/><text x="109" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#3a3f47">TypeScript</text></g>
   <g><rect x="198" y="4" width="164" height="30" rx="7" fill="#ffffff" stroke="#e4e0d8"/><circle cx="213" cy="19" r="4" fill="#f38020"/><text x="224" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#3a3f47">Cloudflare Workers</text></g>
   <g><rect x="370" y="4" width="49" height="30" rx="7" fill="#ffffff" stroke="#e4e0d8"/><circle cx="385" cy="19" r="4" fill="#a8460c"/><text x="396" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#3a3f47">D1</text></g>
-  <g><rect x="427" y="4" width="92" height="30" rx="7" fill="#ffffff" stroke="#e4e0d8"/><circle cx="442" cy="19" r="4" fill="#a8460c"/><text x="453" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#3a3f47">Web Push</text></g>
+  <g><rect x="427" y="4" width="149" height="30" rx="7" fill="#ffffff" stroke="#e4e0d8"/><circle cx="442" cy="19" r="4" fill="#a8460c"/><text x="453" y="23.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#3a3f47">Short-form video</text></g>
 </svg>
